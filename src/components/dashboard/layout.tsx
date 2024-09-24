@@ -1,6 +1,6 @@
 import React from "react";
 
 const Layout = () => {
-  return <></>;
+  return <>Mail layout</>;
 };
 export default Layout;
