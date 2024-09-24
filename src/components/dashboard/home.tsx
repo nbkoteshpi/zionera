@@ -8,6 +8,8 @@ const Home = () => {
     <>
       <Navabar />
       <Layout />
+      <br />
+      <br />
       <Footer />
     </>
   );
