@@ -3,51 +3,49 @@ import React from "react";
 const Navabar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-light sticky-top rounded">
         <div className="container-fluid">
+          <a className="navbar-brand text-body" href="javascript:void(0)">
+            ZionEra
+          </a>
           <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            data-bs-target="#mynavbar"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a className="navbar-brand" href="#">
-            ZionEra
-          </a>
-          <div
-            className="collapse navbar-collapse ml-auto"
-            id="navbarTogglerDemo03"
-          >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div className="collapse navbar-collapse" id="mynavbar">
+            <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  About
+                <a className="nav-link text-body" href="javascript:void(0)">
+                  Aboutus
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-body" href="javascript:void(0)">
+                  Branches
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-body" href="javascript:void(0)">
                   Songs
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">
-                  Branches
+                <a className="nav-link text-body" href="javascript:void(0)">
+                  Resources
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+            <form className="d-flex">
               <input
                 className="form-control me-2"
-                type="search"
+                type="text"
                 placeholder="Search"
-                aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-primary" type="button">
                 Login/SignUp
               </button>
             </form>

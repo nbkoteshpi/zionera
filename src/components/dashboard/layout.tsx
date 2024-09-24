@@ -5,7 +5,7 @@ const Layout = () => {
     <>
       <div className="container mt-3 my-5">
         <div className="mt-4 p-5 bg-primary text-white rounded">
-          <h1>Mail Layout</h1>
+          <h1>Main Layout</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
