@@ -43,8 +43,12 @@
     ]
   },
   "jest": {
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "html"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "html"
+    ]
   }
-  
-  
 }
