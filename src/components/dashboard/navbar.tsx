@@ -1,4 +1,5 @@
 import React from "react";
+import NavItem from "./navbarItem.tsx";
 
 const Navabar = () => {
   return (
@@ -17,27 +18,11 @@ const Navabar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="mynavbar">
-            <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
-              <li className="nav-item">
-                <a className="nav-link text-body" href="javascript:void(0)">
-                  Aboutus
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-body" href="javascript:void(0)">
-                  Branches
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-body" href="javascript:void(0)">
-                  Songs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-body" href="javascript:void(0)">
-                  Resources
-                </a>
-              </li>
+            <ul className="navbar-nav mr-2" style={{ marginLeft: "auto" }}>
+              <NavItem navItemText="About Us" />
+              <NavItem navItemText="Branches" />
+              <NavItem navItemText="Songs" />
+              <NavItem navItemText="Resources" />
             </ul>
             <form className="d-flex">
               <input
