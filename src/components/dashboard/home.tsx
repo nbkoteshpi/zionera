@@ -8,6 +8,7 @@ const Home = () => {
     <Router>
       <Routes>
         <Route path='/' element={<Home1 />} />
+        <Route path='/Home' element={<Home1 />} />
         <Route path='/Test' element={<AppComponent1 />} />
       </Routes>
     </Router>
