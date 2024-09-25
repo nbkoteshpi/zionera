@@ -1,5 +1,5 @@
 import React from "react";
-import NavItem from "./navbarItem.tsx";
+import NavItem from "./navbarItem";
 
 const Navabar = () => {
   return (

@@ -1,17 +1,16 @@
 import React from "react";
-import Navabar from "./navbar.tsx";
-import Footer from "./footer.tsx";
-import Layout from "./layout.tsx";
+import { BrowserRouter as  Router, Route, Routes } from 'react-router-dom';
+import Home1 from "./home1";
+import AppComponent1 from "../../AppComponent1";
 
 const Home = () => {
   return (
-    <>
-      <Navabar />
-      <Layout />
-      <br />
-      <br />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home1 />} />
+        <Route path='/Test' element={<AppComponent1 />} />
+      </Routes>
+    </Router>
   );
 };
 export default Home;
