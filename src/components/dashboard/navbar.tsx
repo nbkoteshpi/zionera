@@ -19,10 +19,10 @@ const Navabar = () => {
           </button>
           <div className="collapse navbar-collapse" id="mynavbar">
             <ul className="navbar-nav mr-2" style={{ marginLeft: "auto" }}>
-              <NavItem navItemText="About Us" />
-              <NavItem navItemText="Branches" />
-              <NavItem navItemText="Songs" />
-              <NavItem navItemText="Resources" />
+              <NavItem navItemText="About Us" navigateTo="/AboutUs" />
+              <NavItem navItemText="Branches" navigateTo="/Branch" />
+              <NavItem navItemText="Songs" navigateTo="/Songs" />
+              <NavItem navItemText="Resources" navigateTo="/Resources"/>
             </ul>
             <form className="d-flex">
               <input

@@ -1,17 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export interface ZionNavbarItemProps {
   navItemText?: string;
+  navigateTo?: string;
 }
 
 const NavItem = (props) => {
-  const { navItemText } = props;
+  const { navItemText,navigateTo } = props;
   return (
     <>
       <li className="nav-item">
-        <a className="nav-link text-body" href="javascript:void(0)">
-          {navItemText}
-        </a>
+        <Link className="nav-link text-body" to={navigateTo}> {navItemText}</Link>
       </li>
     </>
   );
